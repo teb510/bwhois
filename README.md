@@ -1,8 +1,5 @@
-<p> To run, either run `main.go` and pass an IP address as an arg or build the package and run as an executable instead </p>
+<h4>bwhois is a simple utility used to request information about a particular IP to the ip-info api</h4>
 
-<p> To do </p>
-<ul>
-  <li> Modularize the calls/clean it up</li>
-  <li> Parse batch flag if present + support batch api calls</li>
-  <li> Make the output format easier to digest </li>
-</ul>
+<h4>Usage</h4>
+
+<p> Either pass a single IP to the script `bhowis 1.1.1.1` or pass a comma separated list of ips and used the `-batch` flag i.e. `bwhois -batch 1.1.1.1,1.1.1.2`<p>
